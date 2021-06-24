@@ -1,7 +1,6 @@
 name: base
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - conda
   - python=3.8
@@ -12,11 +11,9 @@ dependencies:
   - anaconda
   - anaconda-navigator
   - navigator-updater
-  - astropy[version='>=2.0']
   - pyuvdata
   - pyyaml
   - scipy
   - matplotlib
-  - numpy[version='>=1.15']
+  - numpy
   - attrs
-prefix: /home/vincent/anaconda3
